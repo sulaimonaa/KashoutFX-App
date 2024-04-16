@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282727 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.menu-btn {
+  width: 45px;
+}
+.cancel-btn {
+  width: 16px;
+}
+@media (max-width: 425px) {
+  .top h2 {
+    font-size: 1.3em;
+  }
+  .ca-btn {
+    font-size: 0.9em !important;
+  }
+}
+@media (max-width: 375px) {
+  .ca-btn {
+    font-size: 0.75em !important;
+  }
+}
+@media (max-width: 325px) {
+  .ca-btn {
+    font-size: 0.6em !important;
+  }
 }
